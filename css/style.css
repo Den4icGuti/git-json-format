@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  padding: 15px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 480px;
+  padding: 12px;
+  background-color: rgb(38, 113, 148);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  justify-content: center;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+textarea {
+  resize: none;
+}
+
+button {
+  width: 60px;
+}
